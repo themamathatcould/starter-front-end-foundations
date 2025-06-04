@@ -13,6 +13,32 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <form>
+        <div>
+          <label for="name">Full Name:</label>
+          <input id="name" type="text" name="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="name@example.com"
+            autofocus
+            maxlength="100"
+            required
+          />
+        </div>
+        <div>
+          <label for="form-message">Your message:</label>
+          <textarea id="form-message" name="message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <p>Note: This form does not submit anywhere; it is for demonstration purposes only.</p>
+      </form>
+    </main>
   </body>
 </html>
